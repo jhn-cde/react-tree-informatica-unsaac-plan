@@ -1,34 +1,21 @@
+import React, {useState} from 'react'
+// componentes
+import Header from '../components/header'
+import Main from '../components/main'
+import Footer from '../components/footer'
+
+import * as myData from '../utils/tree_plan_de_estudios.json'
+
 import '../styles/App.css';
 
 function App() {
+  const [data, setData] = useState(myData.default);
+  console.log(myData)
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Ingeniería Informática y de Sistemas -
-          Plan de Estudio
-        </p>
-      </header>
-      <div className='App-main'>
-        <aside className='App-aside'>
-          <p>info here</p>
-        </aside>
-        <section className='App-section'>
-          <p>section</p>
-        </section>
-      </div>
-      <footer className='App-footer'>
-        <p>jhn-cde |&nbsp;
-          <a
-            className="App-link"
-            href="https://github.com/jhn-cde"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          github
-          </a>
-        </p>
-      </footer>
+      <Header/>
+      <Main initialData={data}/>
+      <Footer/>
     </div>
   );
 }
