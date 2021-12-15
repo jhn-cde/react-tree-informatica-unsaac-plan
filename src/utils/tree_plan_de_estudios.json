@@ -396,180 +396,180 @@
                             ]
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "name": "IF468",
+            "attributes": {
+                "title":"Fundamentos de Programacion",
+                "creditos":4,
+                "categoria":"OE"
+            },
+            "children":[
                 {
-                    "name": "IF468",
+                    "name": "IF450",
                     "attributes": {
-                        "title":"Fundamentos de Programacion",
+                        "title":"Abstraccion de Datos y Objetos",
                         "creditos":4,
                         "categoria":"OE"
                     },
                     "children":[
                         {
-                            "name": "IF450",
+                            "name": "IF452",
                             "attributes": {
-                                "title":"Abstraccion de Datos y Objetos",
+                                "title":"Algoritmos y Estructura de Datos",
                                 "creditos":4,
                                 "categoria":"OE"
                             },
                             "children":[
                                 {
-                                    "name": "IF452",
+                                    "name": "IF455",
                                     "attributes": {
-                                        "title":"Algoritmos y Estructura de Datos",
+                                        "title":"Algoritmos Avanzados y Distribuidos",
                                         "creditos":4,
                                         "categoria":"OE"
+                                    }
+                                },
+                                {
+                                    "name": "IF458",
+                                    "attributes": {
+                                        "title":"Computacion Grafica",
+                                        "creditos":4,
+                                        "categoria":"EE"
                                     },
                                     "children":[
                                         {
-                                            "name": "IF455",
+                                            "name": "IF459",
                                             "attributes": {
-                                                "title":"Algoritmos Avanzados y Distribuidos",
-                                                "creditos":4,
-                                                "categoria":"OE"
-                                            }
-                                        },
-                                        {
-                                            "name": "IF458",
-                                            "attributes": {
-                                                "title":"Computacion Grafica",
+                                                "title":"Computacion Grafica II",
                                                 "creditos":4,
                                                 "categoria":"EE"
-                                            },
-                                            "children":[
-                                                {
-                                                    "name": "IF459",
-                                                    "attributes": {
-                                                        "title":"Computacion Grafica II",
-                                                        "creditos":4,
-                                                        "categoria":"EE"
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "IF467",
-                                            "attributes": {
-                                                "title":"Analisis y Deseño de Algoritmos",
-                                                "creditos":4,
-                                                "categoria":"EE",
-                                                "requisitos":["IF453"]
                                             }
                                         }
                                     ]
                                 },
                                 {
-                                    "name": "IF610",
+                                    "name": "IF467",
                                     "attributes": {
-                                        "title":"Analisis y Diseño de Sistemas de Informacion",
+                                        "title":"Analisis y Deseño de Algoritmos",
                                         "creditos":4,
-                                        "categoria":"OE",
-                                        "requisitos":["IF480"]
+                                        "categoria":"EE",
+                                        "requisitos":["IF453"]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "IF610",
+                            "attributes": {
+                                "title":"Analisis y Diseño de Sistemas de Informacion",
+                                "creditos":4,
+                                "categoria":"OE",
+                                "requisitos":["IF480"]
+                            },
+                            "children":[
+                                {
+                                    "name": "IF611",
+                                    "attributes": {
+                                        "title":"Metodologia de Desarrollo de Software",
+                                        "creditos":3,
+                                        "categoria":"OE"
+                                    }
+                                },
+                                {
+                                    "name": "IF612",
+                                    "attributes": {
+                                        "title":"Fundamentos y Diseño de Bases de Datos",
+                                        "creditos":4,
+                                        "categoria":"OE"
                                     },
                                     "children":[
                                         {
-                                            "name": "IF611",
+                                            "name": "IF613",
                                             "attributes": {
-                                                "title":"Metodologia de Desarrollo de Software",
-                                                "creditos":3,
-                                                "categoria":"OE"
-                                            }
-                                        },
-                                        {
-                                            "name": "IF612",
-                                            "attributes": {
-                                                "title":"Fundamentos y Diseño de Bases de Datos",
-                                                "creditos":4,
+                                                "title":"Desarrollo de Software I",
+                                                "creditos":2,
                                                 "categoria":"OE"
                                             },
                                             "children":[
                                                 {
-                                                    "name": "IF613",
+                                                    "name": "IF614",
                                                     "attributes": {
-                                                        "title":"Desarrollo de Software I",
-                                                        "creditos":2,
-                                                        "categoria":"OE"
+                                                        "title":"Ingenieria de Software",
+                                                        "creditos":4,
+                                                        "categoria":"OE",
+                                                        "requisitos":["IF611"]
                                                     },
                                                     "children":[
                                                         {
-                                                            "name": "IF614",
+                                                            "name": "IF617",
                                                             "attributes": {
-                                                                "title":"Ingenieria de Software",
+                                                                "title":"Ingenieria de Software II",
                                                                 "creditos":4,
-                                                                "categoria":"OE",
-                                                                "requisitos":["IF611"]
-                                                            },
-                                                            "children":[
-                                                                {
-                                                                    "name": "IF617",
-                                                                    "attributes": {
-                                                                        "title":"Ingenieria de Software II",
-                                                                        "creditos":4,
-                                                                        "categoria":"EE"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "name": "IF618",
-                                                                    "attributes": {
-                                                                        "title":"Topicos Avanzados de Ingenieria de Software",
-                                                                        "creditos":4,
-                                                                        "categoria":"EE"
-                                                                    }
-                                                                }
-                                                            ]
+                                                                "categoria":"EE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": "IF618",
+                                                            "attributes": {
+                                                                "title":"Topicos Avanzados de Ingenieria de Software",
+                                                                "creditos":4,
+                                                                "categoria":"EE"
+                                                            }
                                                         }
                                                     ]
-                                                },
-                                                {
-                                                    "name": "IF619",
-                                                    "attributes": {
-                                                        "title":"Analisis de Datos Empresariales",
-                                                        "creditos":4,
-                                                        "categoria":"EE",
-                                                        "requisitos":["ME352"]
-                                                    }
                                                 }
                                             ]
+                                        },
+                                        {
+                                            "name": "IF619",
+                                            "attributes": {
+                                                "title":"Analisis de Datos Empresariales",
+                                                "creditos":4,
+                                                "categoria":"EE",
+                                                "requisitos":["ME352"]
+                                            }
                                         }
                                     ]
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "IF451",
+                    "attributes": {
+                        "title":"Programacion I",
+                        "creditos":2,
+                        "categoria":"OE"
+                    },
+                    "children":[
                         {
-                            "name": "IF451",
+                            "name": "IF453",
                             "attributes": {
-                                "title":"Programacion I",
-                                "creditos":2,
-                                "categoria":"OE"
-                            },
-                            "children":[
-                                {
-                                    "name": "IF453",
-                                    "attributes": {
-                                        "title":"Programacion II",
-                                        "creditos":4,
-                                        "categoria":"OE"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "name": "IF456",
-                            "attributes": {
-                                "title":"Algoritmos Avanzados",
+                                "title":"Programacion II",
                                 "creditos":4,
                                 "categoria":"OE"
-                            },
-                            "children":[
-                                {
-                                    "name": "IF460",
-                                    "attributes": {
-                                        "title":"Computacion Cuantica",
-                                        "creditos":4,
-                                        "categoria":"EE"
-                                    }
-                                }
-                            ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "IF456",
+                    "attributes": {
+                        "title":"Algoritmos Avanzados",
+                        "creditos":4,
+                        "categoria":"OE"
+                    },
+                    "children":[
+                        {
+                            "name": "IF460",
+                            "attributes": {
+                                "title":"Computacion Cuantica",
+                                "creditos":4,
+                                "categoria":"EE"
+                            }
                         }
                     ]
                 }
