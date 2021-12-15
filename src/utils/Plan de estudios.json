@@ -1,0 +1,994 @@
+{
+  "Codigo": "IF",
+  "Escuela": "Ingeniería Informática y de Sistemas",
+  "Plan": [
+    {
+      "Categoria": "EG",
+      "Creditos": 35,
+      "Cursos": [
+        {
+          "Codigo": "LO901",
+          "Nombre": "Redaccion de Textos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "ME901",
+          "Nombre": "Matemática I",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "ED901",
+          "Nombre": "Estrategias de Aprendizaje Automático",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "FP901",
+          "Nombre": "Filosofia y Ética",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "AS901",
+          "Nombre": "Sociedad y Cultura",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "DR901",
+          "Nombre": "Constitución Política y DD.HH.",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "ME903",
+          "Nombre": "Cálculo I",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME901"
+            ]
+          }
+        },
+        {
+          "Codigo": "FI902",
+          "Nombre": "Física I",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF902",
+          "Nombre": "Tecnología de la Información y la Comunicación",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 15,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "AS901",
+          "Nombre": "Liderazgo y Habilidades Sociales",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        }
+      ]
+    },
+    {
+      "Categoria": "OE",
+      "Creditos": 124,
+      "Cursos": [
+        {
+          "Codigo": "ME307",
+          "Nombre": "Matemáticas Discretas I",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "ME350",
+          "Nombre": "Calculo II",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME903"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME351",
+          "Nombre": "Algebra Lineal Computacional",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME307",
+              "IF468"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME352",
+          "Nombre": "Probabilidades y Estadística",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME903"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME354",
+          "Nombre": "Investigación Operativa",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME351"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME355",
+          "Nombre": "Matemáticas Discretas II",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME307"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME356",
+          "Nombre": "Ecuaciones Diferenciales",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME350"
+            ]
+          }
+        },
+        {
+          "Codigo": "FI370",
+          "Nombre": "Física Aplicada a la Informática",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "FI902"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF468",
+          "Nombre": "Fundamentos de Programación",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "FI902"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF450",
+          "Nombre": "Abstracción de Datos y Objetos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF468"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF451",
+          "Nombre": "Programación I",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF468"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF452",
+          "Nombre": "Algoritmos y Estructura de Datos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF450"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF453",
+          "Nombre": "Programación II",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF451"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF454",
+          "Nombre": "Teoría de la Computación",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF451",
+              "ME355"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF455",
+          "Nombre": "Algoritmos Paralelos y Distribuidos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF452"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF456",
+          "Nombre": "Algoritmos Avanzados",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF468"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF457",
+          "Nombre": "Métodos Numéricos",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME356"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF480",
+          "Nombre": "Administración de Tecnologías de Información",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME352"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF481",
+          "Nombre": "Ingeniería Económica",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF480"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF482",
+          "Nombre": "Planeamiento y Dirección Estratétgica de Tecnología de Información",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 140,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF483",
+          "Nombre": "Formulación de Proyectos de Tecnología de Información",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF482"
+            ]
+          }
+        },
+        {
+          "Codigo": "LI371",
+          "Nombre": "Electrónica y Diseño Digital",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "FI370"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF550",
+          "Nombre": "Organización y Arquitectura del Computador",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "LI371"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF551",
+          "Nombre": "Sistemas Operativos",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF550"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF552",
+          "Nombre": "Redes de Computadoras I",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF551"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF610",
+          "Nombre": "Análisis y Diseño de Sistemas de Información",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF450",
+              "IF480"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF611",
+          "Nombre": "Metodología de Desarrollo de Software",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF610"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF612",
+          "Nombre": "Fundamentos y Diseño de Bases de Datos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF610"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF613",
+          "Nombre": "Desarrollo de Software I",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF612"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF614",
+          "Nombre": "Ingeniería de Software",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF611",
+              "IF613"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF650",
+          "Nombre": "Modelos Probabilísticos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME352"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF651",
+          "Nombre": "Inteligencia Artificial",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF650",
+              "IF612"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF652",
+          "Nombre": "Aprendizaje Automático",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF710",
+          "Nombre": "Seminario de Investigación I",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 150,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF711",
+          "Nombre": "Seminario de Investigación I",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF710"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Categoria": "EE",
+      "Creditos": 45,
+      "Cursos": [
+        {
+          "Codigo": "ME357",
+          "Nombre": "Matemáticas Avanzadas para Ingeniería",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME350"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME358",
+          "Nombre": "Estadística Inferencial",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME352"
+            ]
+          }
+        },
+        {
+          "Codigo": "ME359",
+          "Nombre": "Estadística Aplicada",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "ME352"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF458",
+          "Nombre": "Computacion Gráfica",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF452",
+              "IF453"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF459",
+          "Nombre": "Computacion Gráfica II",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF458"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF460",
+          "Nombre": "Computacion Cuántica",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF456"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF464",
+          "Nombre": "Computación Simbólica",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF466"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF465",
+          "Nombre": "Geometría Computacional",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF454"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF466",
+          "Nombre": "Compiladores",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF454"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF467",
+          "Nombre": "Análisis y Diseño de Algoritmos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF452",
+              "IF453"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF484",
+          "Nombre": "Emprendimiento e Innovación",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF482"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF485",
+          "Nombre": "Control y Auditoría de Sistemas",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF483"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF553",
+          "Nombre": "Lenguaje Ensamblador",
+          "Creditos": 3,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF550"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF554",
+          "Nombre": "Redes de Computadoras II",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF552"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF555",
+          "Nombre": "Tópicos Avanzados en Redes",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF554"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF556",
+          "Nombre": "Sistemas Embebidos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF551"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF557",
+          "Nombre": "Arquitecturas de Alto Rendimiento",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF554"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF616",
+          "Nombre": "Desarrollo de Software II",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF614"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF617",
+          "Nombre": "Ingeniería de Software II",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF614"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF618",
+          "Nombre": "Tópicos Avanzados en Ingeniería de Software",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF614"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF619",
+          "Nombre": "Análisis de Datos Empresariales",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF612",
+              "ME352"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF653",
+          "Nombre": "Minería de Datos",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF652"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF654",
+          "Nombre": "Robótica",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF655",
+          "Nombre": "Procesamiento Digital de Señales",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF656",
+          "Nombre": "Procesamiento del Lenguaje Natural",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF657",
+          "Nombre": "Visión Computacional",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF658",
+          "Nombre": "Redes Neuronales Artificiales",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF652"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF659",
+          "Nombre": "Redes Bayesianas",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF652"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF661",
+          "Nombre": "Busqueda Heurística y Metaheurística",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF662",
+          "Nombre": "Deep Learning",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF652"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF663",
+          "Nombre": "Interacción Persona Computador",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF651"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF664",
+          "Nombre": "Bioinformática",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF650"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF665",
+          "Nombre": "Modelado y Simulacion de Estructuras Biomoleculares",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF664"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF666",
+          "Nombre": "Estadística para Bioinformática y Diseño Experimental",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF664"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF667",
+          "Nombre": "Análisis de Imágenes Biomédicas en 2D y 3D",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF664"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF668",
+          "Nombre": "Análisis de Datos de Expresión Génica",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF664"
+            ]
+          }
+        },
+        {
+          "Codigo": "IF669",
+          "Nombre": "Modelado y Simulación",
+          "Creditos": 4,
+          "Requisito": {
+            "Creditos": 0,
+            "Cursos": [
+              "IF650"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Categoria": "EC",
+      "Creditos": 6,
+      "Cursos": [
+        {
+          "Codigo": "IF060",
+          "Nombre": "Música",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 60,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF061",
+          "Nombre": "Coro",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 60,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF062",
+          "Nombre": "Danza Moderna",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 100,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF063",
+          "Nombre": "Quechua",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 100,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF064",
+          "Nombre": "Taller de Debate",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 170,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF065",
+          "Nombre": "Taller de Creatividad Musical",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 170,
+            "Cursos": []
+          }
+        },
+        {
+          "Codigo": "IF066",
+          "Nombre": "Teatro",
+          "Creditos": 2,
+          "Requisito": {
+            "Creditos": 170,
+            "Cursos": []
+          }
+        }
+      ]
+    },
+    {
+      "Categoria": "PP",
+      "Creditos": 9,
+      "Cursos": [
+        {
+          "Codigo": "IF020",
+          "Nombre": "Prácticas Pre-Profesionales",
+          "Creditos": 9,
+          "Requisito": {
+            "Creditos": 200,
+            "Cursos": []
+          }
+        }
+      ]
+    }
+  ]
+}
