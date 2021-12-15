@@ -4,7 +4,7 @@ import Nodo from "./node"
 
 const containerStyles = {
   width: "100%",
-  height: "100vh"
+  height: "85vh"
 };
 
 export default class TreeChart extends React.PureComponent {
