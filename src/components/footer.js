@@ -6,7 +6,7 @@ function Footer() {
             <p>jhn-cde |&nbsp;
             <a
                 className="App-link"
-                href="https://github.com/jhn-cde"
+                href="https://github.com/jhn-cde/react-tree-informatica-unsaac-plan"
                 target="_blank"
                 rel="noopener noreferrer"
             >
