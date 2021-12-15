@@ -5,7 +5,6 @@ import Section from './section'
 function Main({initialData}) {
     return (
         <div className='App-main' style={styles}>
-          <Aside />
           <Section initialData={initialData}/>
         </div>
     );
