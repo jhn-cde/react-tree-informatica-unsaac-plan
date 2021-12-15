@@ -3,15 +3,31 @@ import React from 'react';
 function Footer() {
     return (
         <footer className='App-footer' style={styles}>
-            <p>jhn-cde |&nbsp;
-            <a
-                className="App-link"
-                href="https://github.com/jhn-cde/react-tree-informatica-unsaac-plan"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-            github
-            </a>
+            <p>
+                <a
+                    className="App-link"
+                    href="https://github.com/jhn-cde"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                jhn-cde
+                </a>&nbsp;|&nbsp;
+                <a
+                    className="App-link"
+                    href="https://github.com/jhn-cde/react-tree-informatica-unsaac-plan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                github
+                </a>&nbsp;|&nbsp;
+                <a
+                    className="App-link"
+                    href="http://www.unsaac.edu.pe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                unsaac
+                </a>
             </p>
         </footer>
     );
