@@ -19,7 +19,7 @@ const styles = {
     fontSize: "calc(4px + 2vmin)",
     color: "#060a12",
     width: "auto",
-    minHeight: "85vh",
+    maxHeight: "85vh",
     marginTop: "10vh"
 }
   
