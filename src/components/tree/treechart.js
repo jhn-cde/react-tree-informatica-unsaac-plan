@@ -30,7 +30,7 @@ export default class TreeChart extends React.PureComponent {
           data={this.props.data}
           translate={this.state.translate}
           orientation="vertical"
-          //initialDepth = "0"
+          initialDepth = "1"
           renderCustomNodeElement={Nodo}
         />
       </div>
