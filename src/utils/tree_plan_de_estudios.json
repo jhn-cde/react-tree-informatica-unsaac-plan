@@ -9,7 +9,8 @@
             "attributes": {
                 "title":"Redaccion de Textos",
                 "creditos":4,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             }
         },
         {
@@ -17,7 +18,8 @@
             "attributes": {
                 "title":"Matematica I",
                 "creditos":4,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             },
             "children":[
                 {
@@ -25,7 +27,8 @@
                     "attributes": {
                         "title":"Calculo I",
                         "creditos":4,
-                        "categoria":"EG"
+                        "categoria":"EG",
+                        "requisitos":["ME901"]
                     },
                     "children":[
                         {
@@ -33,7 +36,8 @@
                             "attributes": {
                                 "title":"Calculo II",
                                 "creditos":4,
-                                "categoria":"OE"
+                                "categoria":"OE",
+                                "requisitos":["ME903"]
                             },
                             "children":[
                                 {
@@ -41,7 +45,8 @@
                                     "attributes": {
                                         "title":"Ecuaciones Diferenciales",
                                         "creditos":4,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["ME350"]
                                     },
                                     "children":[
                                         {
@@ -49,7 +54,8 @@
                                             "attributes": {
                                                 "title":"Metodos Numericos",
                                                 "creditos":3,
-                                                "categoria":"OE"
+                                                "categoria":"OE",
+                                                "requisitos":["ME356"]
                                             }
                                         }
                                     ]
@@ -59,7 +65,8 @@
                                     "attributes": {
                                         "title":"Matematicas Avanzadas para Ingenieria",
                                         "creditos":4,
-                                        "categoria":"EE"
+                                        "categoria":"EE",
+                                        "requisitos":["ME350"]
                                     }
                                 }
                             ]
@@ -69,7 +76,8 @@
                             "attributes": {
                                 "title":"Probabilidades y Estadistica",
                                 "creditos":4,
-                                "categoria":"OE"
+                                "categoria":"OE",
+                                "requisitos":["ME903"]
                             },
                             "children":[
                                 {
@@ -77,7 +85,8 @@
                                     "attributes": {
                                         "title":"Administracion de tecnologias de la Informacion",
                                         "creditos":3,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["ME352"]
                                     },
                                     "children":[
                                         {
@@ -85,7 +94,8 @@
                                             "attributes": {
                                                 "title":"Ingenieria Economica",
                                                 "creditos":3,
-                                                "categoria":"OE"
+                                                "categoria":"OE",
+                                                "requisitos":["IF480"]
                                             }
                                         }
                                     ]
@@ -95,7 +105,8 @@
                                     "attributes": {
                                         "title":"Modelos Probabilisticos",
                                         "creditos":4,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["ME352"]
                                     },
                                     "children":[
                                         {
@@ -104,7 +115,7 @@
                                                 "title":"Inteligencia Artificial",
                                                 "creditos":3,
                                                 "categoria":"OE",
-                                                "requisitos":["IF612"]
+                                                "requisitos":["IF650","IF612"]
                                             },
                                             "children":[
                                                 {
@@ -112,7 +123,8 @@
                                                     "attributes": {
                                                         "title":"Aprendizaje Automatico",
                                                         "creditos":4,
-                                                        "categoria":"OE"
+                                                        "categoria":"OE",
+                                                        "requisitos":["IF651"]
                                                     },
                                                     "children":[
                                                         {
@@ -120,7 +132,8 @@
                                                             "attributes": {
                                                                 "title":"Mineria de Datos",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF652"]
                                                             }
                                                         },
                                                         {
@@ -128,7 +141,8 @@
                                                             "attributes": {
                                                                 "title":"Redes Neuronales Artificiales",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF652"]
                                                             }
                                                         },
                                                         {
@@ -136,7 +150,8 @@
                                                             "attributes": {
                                                                 "title":"Redes Bayesianas",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF652"]
                                                             }
                                                         },
                                                         {
@@ -144,7 +159,8 @@
                                                             "attributes": {
                                                                 "title":"Deep Learning",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF652"]
                                                             }
                                                         }
                                                     ]
@@ -154,7 +170,8 @@
                                                     "attributes": {
                                                         "title":"Robotica",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF651"]
                                                     }
                                                 },
                                                 {
@@ -162,7 +179,8 @@
                                                     "attributes": {
                                                         "title":"Procesamiento Digital de Señales",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF651"]
                                                     }
                                                 },
                                                 {
@@ -170,7 +188,8 @@
                                                     "attributes": {
                                                         "title":"Procesamiento del Lenguaje Natural",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF651"]
                                                     }
                                                 },
                                                 {
@@ -178,7 +197,8 @@
                                                     "attributes": {
                                                         "title":"Vision Computacional",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF651"]
                                                     }
                                                 },
                                                 {
@@ -186,7 +206,8 @@
                                                     "attributes": {
                                                         "title":"Busqueda Heuristica y Metaheuristica",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF651"]
                                                     }
                                                 },
                                                 {
@@ -194,7 +215,8 @@
                                                     "attributes": {
                                                         "title":"Interaccion Persona Computador",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF651"]
                                                     }
                                                 }
                                             ]
@@ -204,7 +226,8 @@
                                             "attributes": {
                                                 "title":"Bioinformatica",
                                                 "creditos":4,
-                                                "categoria":"EE"
+                                                "categoria":"EE",
+                                                "requisitos":["IF650"]
                                             },
                                             "children":[
                                                 {
@@ -212,7 +235,8 @@
                                                     "attributes": {
                                                         "title":"Modelado y Simulacion de Estructuras Biomoleculares",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF664"]
                                                     }
                                                 },
                                                 {
@@ -220,7 +244,8 @@
                                                     "attributes": {
                                                         "title":"Estadistica para Bioinformatica y Diseño Experimental",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF664"]
                                                     }
                                                 },
                                                 {
@@ -228,7 +253,8 @@
                                                     "attributes": {
                                                         "title":"Analisis de Imagenes Biomedicas en 2D y 3D",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF664"]
                                                     }
                                                 },
                                                 {
@@ -236,7 +262,8 @@
                                                     "attributes": {
                                                         "title":"Analisis de Datos de Expresion Genica",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF664"]
                                                     }
                                                 }
                                             ]
@@ -246,7 +273,8 @@
                                             "attributes": {
                                                 "title":"Modelado y Simulacion",
                                                 "creditos":4,
-                                                "categoria":"EE"
+                                                "categoria":"EE",
+                                                "requisitos":["IF650"]
                                             }
                                         }
                                     ]
@@ -256,7 +284,8 @@
                                     "attributes": {
                                         "title":"Estadistica Inferencial",
                                         "creditos":4,
-                                        "categoria":"EE"
+                                        "categoria":"EE",
+                                        "requisitos":["ME352"]
                                     }
                                 },
                                 {
@@ -264,7 +293,8 @@
                                     "attributes": {
                                         "title":"Estadistica Aplicada",
                                         "creditos":4,
-                                        "categoria":"EE"
+                                        "categoria":"EE",
+                                        "requisitos":["ME352"]
                                     }
                                 }
                             ]
@@ -278,7 +308,8 @@
             "attributes": {
                 "title":"Estrategias de Aprendizaje Automatico",
                 "creditos":4,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             }
         },
         {
@@ -286,7 +317,8 @@
             "attributes": {
                 "title":"Filosofia y Etica",
                 "creditos":3,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             }
         },
         {
@@ -294,7 +326,8 @@
             "attributes": {
                 "title":"Constitucion Politica y Derechos Humanos",
                 "creditos":3,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             }
         },
         {
@@ -302,7 +335,8 @@
             "attributes": {
                 "title":"Fisica I",
                 "creditos":4,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             },
             "children":[
                 {
@@ -310,7 +344,8 @@
                     "attributes": {
                         "title":"Fisica Aplicada a la Informatica",
                         "creditos":4,
-                        "categoria":"OE"
+                        "categoria":"OE",
+                        "requisitos":["FI902"]
                     },
                     "children":[
                         {
@@ -318,7 +353,8 @@
                             "attributes": {
                                 "title":"Electronica y Diseño Digital",
                                 "creditos":3,
-                                "categoria":"OE"
+                                "categoria":"OE",
+                                "requisitos":["FI370"]
                             },
                             "children":[
                                 {
@@ -326,7 +362,8 @@
                                     "attributes": {
                                         "title":"Organizacion y Arquitectura del Computador",
                                         "creditos":4,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["LI371"]
                                     },
                                     "children":[
                                         {
@@ -334,7 +371,8 @@
                                             "attributes": {
                                                 "title":"Sistemas Operativos",
                                                 "creditos":3,
-                                                "categoria":"OE"
+                                                "categoria":"OE",
+                                                "requisitos":["IF550"]
                                             },
                                             "children":[
                                                 {
@@ -342,7 +380,8 @@
                                                     "attributes": {
                                                         "title":"Redes de Computadoras",
                                                         "creditos":3,
-                                                        "categoria":"OE"
+                                                        "categoria":"OE",
+                                                        "requisitos":["IF551"]
                                                     },
                                                     "children":[
                                                         {
@@ -350,7 +389,8 @@
                                                             "attributes": {
                                                                 "title":"Redes de Computadoras II",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF552"]
                                                             },
                                                             "children":[
                                                                 {
@@ -358,7 +398,8 @@
                                                                     "attributes": {
                                                                         "title":"Topicos Avanzados en redes",
                                                                         "creditos":4,
-                                                                        "categoria":"EE"
+                                                                        "categoria":"EE",
+                                                                        "requisitos":["IF554"]
                                                                     }
                                                                 },
                                                                 {
@@ -366,7 +407,8 @@
                                                                     "attributes": {
                                                                         "title":"Arquitecturas de Alto Rendimiento",
                                                                         "creditos":4,
-                                                                        "categoria":"EE"
+                                                                        "categoria":"EE",
+                                                                        "requisitos":["IF554"]
                                                                     }
                                                                 }
                                                             ]
@@ -378,7 +420,8 @@
                                                     "attributes": {
                                                         "title":"Sistemas Embebidos",
                                                         "creditos":4,
-                                                        "categoria":"EE"
+                                                        "categoria":"EE",
+                                                        "requisitos":["IF551"]
                                                     }
                                                 }
                                             ]
@@ -388,7 +431,8 @@
                                             "attributes": {
                                                 "title":"Lenguaje Ensamblador",
                                                 "creditos":3,
-                                                "categoria":"EE"
+                                                "categoria":"EE",
+                                                "requisitos":["IF550"]
                                             }
                                         }
                                     ]
@@ -404,7 +448,8 @@
             "attributes": {
                 "title":"Fundamentos de Programacion",
                 "creditos":4,
-                "categoria":"OE"
+                "categoria":"OE",
+                "requisitos":[]
             },
             "children":[
                 {
@@ -412,7 +457,8 @@
                     "attributes": {
                         "title":"Abstraccion de Datos y Objetos",
                         "creditos":4,
-                        "categoria":"OE"
+                        "categoria":"OE",
+                        "requisitos":["IF468"]
                     },
                     "children":[
                         {
@@ -420,7 +466,8 @@
                             "attributes": {
                                 "title":"Algoritmos y Estructura de Datos",
                                 "creditos":4,
-                                "categoria":"OE"
+                                "categoria":"OE",
+                                "requisitos":["IF450"]
                             },
                             "children":[
                                 {
@@ -428,7 +475,8 @@
                                     "attributes": {
                                         "title":"Algoritmos Avanzados y Distribuidos",
                                         "creditos":4,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["IF452"]
                                     }
                                 },
                                 {
@@ -436,7 +484,8 @@
                                     "attributes": {
                                         "title":"Computacion Grafica",
                                         "creditos":4,
-                                        "categoria":"EE"
+                                        "categoria":"EE",
+                                        "requisitos":["IF452"]
                                     },
                                     "children":[
                                         {
@@ -444,7 +493,8 @@
                                             "attributes": {
                                                 "title":"Computacion Grafica II",
                                                 "creditos":4,
-                                                "categoria":"EE"
+                                                "categoria":"EE",
+                                                "requisitos":["IF458"]
                                             }
                                         }
                                     ]
@@ -455,7 +505,7 @@
                                         "title":"Analisis y Deseño de Algoritmos",
                                         "creditos":4,
                                         "categoria":"EE",
-                                        "requisitos":["IF453"]
+                                        "requisitos":["IF452","IF453"]
                                     }
                                 }
                             ]
@@ -466,7 +516,7 @@
                                 "title":"Analisis y Diseño de Sistemas de Informacion",
                                 "creditos":4,
                                 "categoria":"OE",
-                                "requisitos":["IF480"]
+                                "requisitos":["IF450","IF480"]
                             },
                             "children":[
                                 {
@@ -474,7 +524,8 @@
                                     "attributes": {
                                         "title":"Metodologia de Desarrollo de Software",
                                         "creditos":3,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["IF610"]
                                     }
                                 },
                                 {
@@ -482,7 +533,8 @@
                                     "attributes": {
                                         "title":"Fundamentos y Diseño de Bases de Datos",
                                         "creditos":4,
-                                        "categoria":"OE"
+                                        "categoria":"OE",
+                                        "requisitos":["IF610"]
                                     },
                                     "children":[
                                         {
@@ -490,7 +542,8 @@
                                             "attributes": {
                                                 "title":"Desarrollo de Software I",
                                                 "creditos":2,
-                                                "categoria":"OE"
+                                                "categoria":"OE",
+                                                "requisitos":["IF612"]
                                             },
                                             "children":[
                                                 {
@@ -499,7 +552,7 @@
                                                         "title":"Ingenieria de Software",
                                                         "creditos":4,
                                                         "categoria":"OE",
-                                                        "requisitos":["IF611"]
+                                                        "requisitos":["IF613","IF611"]
                                                     },
                                                     "children":[
                                                         {
@@ -507,7 +560,8 @@
                                                             "attributes": {
                                                                 "title":"Ingenieria de Software II",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF614"]
                                                             }
                                                         },
                                                         {
@@ -515,7 +569,8 @@
                                                             "attributes": {
                                                                 "title":"Topicos Avanzados de Ingenieria de Software",
                                                                 "creditos":4,
-                                                                "categoria":"EE"
+                                                                "categoria":"EE",
+                                                                "requisitos":["IF614"]
                                                             }
                                                         }
                                                     ]
@@ -528,7 +583,7 @@
                                                 "title":"Analisis de Datos Empresariales",
                                                 "creditos":4,
                                                 "categoria":"EE",
-                                                "requisitos":["ME352"]
+                                                "requisitos":["IF612","ME352"]
                                             }
                                         }
                                     ]
@@ -542,7 +597,8 @@
                     "attributes": {
                         "title":"Programacion I",
                         "creditos":2,
-                        "categoria":"OE"
+                        "categoria":"OE",
+                        "requisitos":["IF468"]
                     },
                     "children":[
                         {
@@ -550,7 +606,8 @@
                             "attributes": {
                                 "title":"Programacion II",
                                 "creditos":4,
-                                "categoria":"OE"
+                                "categoria":"OE",
+                                "requisitos":["IF451"]
                             }
                         }
                     ]
@@ -560,7 +617,8 @@
                     "attributes": {
                         "title":"Algoritmos Avanzados",
                         "creditos":4,
-                        "categoria":"OE"
+                        "categoria":"OE",
+                        "requisitos":["IF468"]
                     },
                     "children":[
                         {
@@ -568,7 +626,8 @@
                             "attributes": {
                                 "title":"Computacion Cuantica",
                                 "creditos":4,
-                                "categoria":"EE"
+                                "categoria":"EE",
+                                "requisitos":["IF456"]
                             }
                         }
                     ]
@@ -580,7 +639,8 @@
             "attributes": {
                 "title":"Tecnologias de la Informacion y la Comunicacion",
                 "creditos":3,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             }
         },
         {
@@ -588,7 +648,8 @@
             "attributes": {
                 "title":"Liderazgo y Habilidades Sociales",
                 "creditos":3,
-                "categoria":"EG"
+                "categoria":"EG",
+                "requisitos":[]
             }
         },
         {
@@ -596,7 +657,8 @@
             "attributes": {
                 "title":"Matematicas Discretas I",
                 "creditos":4,
-                "categoria":"OE"
+                "categoria":"OE",
+                "requisitos":[]
             },
             "children":[
                 {
@@ -605,7 +667,7 @@
                         "title":"Algebra Lineal Computacional",
                         "creditos":4,
                         "categoria":"OE",
-                        "requisitos":["IF468"]
+                        "requisitos":["ME307","IF468"]
                     },
                     "children":[
                         {
@@ -613,7 +675,8 @@
                             "attributes": {
                                 "title":"Investigacion Operativa",
                                 "creditos":4,
-                                "categoria":"OE"
+                                "categoria":"OE",
+                                "requisitos":["ME351"]
                             }
                         }
                     ]
@@ -623,7 +686,8 @@
                     "attributes": {
                         "title":"Matematicas Discretas II",
                         "creditos":4,
-                        "categoria":"OE"
+                        "categoria":"OE",
+                        "requisitos":["ME307"]
                     },
                     "children":[
                         {
@@ -632,7 +696,7 @@
                                 "title":"Teoria de la Computacion",
                                 "creditos":4,
                                 "categoria":"OE",
-                                "requisitos":["IF451"]
+                                "requisitos":["ME355","IF451"]
                             },
                             "children":[
                                 {
@@ -640,7 +704,8 @@
                                     "attributes": {
                                         "title":"Geometria Computacional",
                                         "creditos":4,
-                                        "categoria":"EE"
+                                        "categoria":"EE",
+                                        "requisitos":["IF454"]
                                     }
                                 },
                                 {
@@ -648,7 +713,8 @@
                                     "attributes": {
                                         "title":"Compiladores",
                                         "creditos":4,
-                                        "categoria":"EE"
+                                        "categoria":"EE",
+                                        "requisitos":["IF454"]
                                     },
                                     "children":[
                                         {
@@ -656,7 +722,8 @@
                                             "attributes": {
                                                 "title":"Computacion Simbolica",
                                                 "creditos":4,
-                                                "categoria":"EE"
+                                                "categoria":"EE",
+                                                "requisitos":["IF466"]
                                             }
                                         }
                                     ]
@@ -673,7 +740,7 @@
                 "title":"Planeamiento y Direccion Estrategica de Tecnologias de Informacion",
                 "creditos":4,
                 "categoria":"OE",
-                "requisitos":["140 creditos"]
+                "requisitos":["CRE_140"]
             },
             "children":[
                 {
@@ -681,7 +748,8 @@
                     "attributes": {
                         "title":"Formulacion de Proyectos de Tecnologia de Informacion",
                         "creditos":4,
-                        "categoria":"OE"
+                        "categoria":"OE",
+                        "requisitos":["IF482"]
                     },
                     "children":[
                         {
@@ -689,7 +757,8 @@
                             "attributes": {
                                 "title":"Control y Auditoria de Sistemas",
                                 "creditos":3,
-                                "categoria":"EE"
+                                "categoria":"EE",
+                                "requisitos":["IF483"]
                             }
                         }
                     ]
@@ -699,101 +768,143 @@
                     "attributes": {
                         "title":"Emprendimienton e Innovacion",
                         "creditos":3,
-                        "categoria":"EE"
+                        "categoria":"EE",
+                        "requisitos":["IF482"]
                     }
                 }
             ]
         },
         {
-            "name": "IF710",
+            "name": "CRE_60",
             "attributes": {
-                "title":"Seminario de Investigacion",
-                "creditos":3,
-                "categoria":"OE",
-                "requisitos":["150 creditos"]
+                "title":"60 Creditos"
             },
             "children":[
                 {
-                    "name": "IF711",
+                    "name": "CRE_100",
                     "attributes": {
-                        "title":"Seminario de Investigacion II",
-                        "creditos":4,
-                        "categoria":"OE"
+                        "title":"100 Creditos"
+                    },
+                    "children":[
+                        {
+                            "name": "CRE_150",
+                            "attributes": {
+                                "title":"150 Creditos"
+                            },
+                            "children":[
+                                {
+                                    "name": "CRE_170",
+                                    "attributes": {
+                                        "title":"170 Creditos"
+                                    },
+                                    "children":[
+                                        {
+                                            "name": "CRE_200",
+                                            "attributes": {
+                                                "title":"200 Creditos"
+                                            },
+                                            "children":[
+                                                {
+                                                    "name": "IF020",
+                                                    "attributes": {
+                                                        "title":"Practicas Pre-Profesionales",
+                                                        "creditos":9,
+                                                        "categoria":"PP",
+                                                        "requisitos":["CRE_200"]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "IF064",
+                                            "attributes": {
+                                                "title":"Taller de Debate",
+                                                "creditos":2,
+                                                "categoria":"EC",
+                                                "requisitos":["CRE_170"]
+                                            }
+                                        },
+                                        {
+                                            "name": "IF065",
+                                            "attributes": {
+                                                "title":"Taller de Creatividad Musical",
+                                                "creditos":2,
+                                                "categoria":"EC",
+                                                "requisitos":["CRE_170"]
+                                            }
+                                        },
+                                        {
+                                            "name": "IF066",
+                                            "attributes": {
+                                                "title":"Teatro",
+                                                "creditos":2,
+                                                "categoria":"EC",
+                                                "requisitos":["CRE_170"]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "IF710",
+                                    "attributes": {
+                                        "title":"Seminario de Investigacion",
+                                        "creditos":3,
+                                        "categoria":"OE",
+                                        "requisitos":["CRE_150"]
+                                    },
+                                    "children":[
+                                        {
+                                            "name": "IF711",
+                                            "attributes": {
+                                                "title":"Seminario de Investigacion II",
+                                                "creditos":4,
+                                                "categoria":"OE",
+                                                "requisitos":["IF710"]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "IF062",
+                            "attributes": {
+                                "title":"Danza Moderna",
+                                "creditos":2,
+                                "categoria":"EC",
+                                "requisitos":["CRE_100"]
+                            }
+                        },
+                        {
+                            "name": "IF063",
+                            "attributes": {
+                                "title":"Quechua",
+                                "creditos":2,
+                                "categoria":"EC",
+                                "requisitos":["CRE_100"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "IF060",
+                    "attributes": {
+                        "title":"Musica",
+                        "creditos":2,
+                        "categoria":"EC",
+                        "requisitos":["CRE_60"]
+                    }
+                },
+                {
+                    "name": "IF061",
+                    "attributes": {
+                        "title":"Coro",
+                        "creditos":2,
+                        "categoria":"EC",
+                        "requisitos":["CRE_60"]
                     }
                 }
             ]
-        },
-        {
-            "name": "IF060",
-            "attributes": {
-                "title":"Musica",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["60 creditos"]
-            }
-        },
-        {
-            "name": "IF061",
-            "attributes": {
-                "title":"Coro",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["60 creditos"]
-            }
-        },
-        {
-            "name": "IF062",
-            "attributes": {
-                "title":"Danza Moderna",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["100 creditos"]
-            }
-        },
-        {
-            "name": "IF063",
-            "attributes": {
-                "title":"Quechua",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["100 creditos"]
-            }
-        },
-        {
-            "name": "IF064",
-            "attributes": {
-                "title":"Taller de Debate",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["170 creditos"]
-            }
-        },
-        {
-            "name": "IF065",
-            "attributes": {
-                "title":"Taller de Creatividad Musical",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["170 creditos"]
-            }
-        },
-        {
-            "name": "IF066",
-            "attributes": {
-                "title":"Teatro",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["170 creditos"]
-            }
-        },
-        {
-            "name": "IF020",
-            "attributes": {
-                "title":"Practicas Pre-Profesionales",
-                "creditos":9,
-                "categoria":"PP",
-                "requisitos":["200 creditos"]
-            }
         }
     ]
 }

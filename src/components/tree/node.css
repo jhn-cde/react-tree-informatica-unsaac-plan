@@ -1,0 +1,34 @@
+.node_undefined{
+    fill: #555555;
+    stroke: #555555;
+}
+.node_EG{
+    fill:darkviolet;
+    stroke: darkviolet;
+}
+.node_OE{
+    fill: green;
+    stroke: green;
+}
+.node_EE{
+    fill:maroon;
+    stroke: maroon;
+}
+.node_EC{
+    fill:olive;
+    stroke: olive;
+}
+.node_PP{
+    fill: lightseagreen;
+    stroke: lightseagreen;
+}
+.clicked{
+    fill: blue;
+    stroke: blue;
+}
+.father{
+    stroke: white;
+}
+.leaf:hover{
+    cursor: context-menu;
+}

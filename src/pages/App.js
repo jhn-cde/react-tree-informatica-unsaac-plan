@@ -10,7 +10,6 @@ import '../styles/App.css';
 
 function App() {
   const [data, setData] = useState(myData.default);
-  console.log(myData)
   return (
     <div className="App">
       <Header/>
