@@ -11,7 +11,7 @@ function Nodo ({ nodeDatum, toggleNode}) {
     var s = "";
     s += att.title? att.title:"";
     s += att.creditos? "\nCreditos: "+ att.creditos:"";
-    s += att.requisitos? "\nRequisito: "+(att.requisitos!=""?att.requisitos:"_"):"";
+    s += att.requisitos? "\nRequisito: "+(att.requisitos>""?att.requisitos:"_"):"";
     return s;
   }
   // circle classname

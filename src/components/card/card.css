@@ -1,0 +1,42 @@
+.background{
+    background-color: rgba(0,0,0,0);
+    width: 1px;
+    height: 1px;
+}
+.Card{
+    margin-right: auto;
+    width: auto;
+    width: 8em;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    height: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: left;
+    font-size: .8em;
+}
+.title{
+    text-align: center;
+}
+.EG{
+    color: darkviolet;
+}
+.OE{
+    color:green;
+}
+.EE{
+    color:maroon;
+}
+.EC{
+    color:olive;
+}
+.PP{
+    color:lightseagreen;
+}
+.UN{
+    color: #555555;
+}
+.CU{
+    color: blue;
+}
