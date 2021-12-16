@@ -775,96 +775,136 @@
             ]
         },
         {
-            "name": "IF710",
+            "name": "CRE_60",
             "attributes": {
-                "title":"Seminario de Investigacion",
-                "creditos":3,
-                "categoria":"OE",
-                "requisitos":["CRE_150"]
+                "title":"60 Creditos"
             },
             "children":[
                 {
-                    "name": "IF711",
+                    "name": "CRE_100",
                     "attributes": {
-                        "title":"Seminario de Investigacion II",
-                        "creditos":4,
-                        "categoria":"OE",
-                        "requisitos":["IF710"]
+                        "title":"100 Creditos"
+                    },
+                    "children":[
+                        {
+                            "name": "CRE_150",
+                            "attributes": {
+                                "title":"150 Creditos"
+                            },
+                            "children":[
+                                {
+                                    "name": "CRE_170",
+                                    "attributes": {
+                                        "title":"170 Creditos"
+                                    },
+                                    "children":[
+                                        {
+                                            "name": "CRE_200",
+                                            "attributes": {
+                                                "title":"200 Creditos"
+                                            },
+                                            "children":[
+                                                {
+                                                    "name": "IF020",
+                                                    "attributes": {
+                                                        "title":"Practicas Pre-Profesionales",
+                                                        "creditos":9,
+                                                        "categoria":"PP",
+                                                        "requisitos":["CRE_200"]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "IF064",
+                                            "attributes": {
+                                                "title":"Taller de Debate",
+                                                "creditos":2,
+                                                "categoria":"EC",
+                                                "requisitos":["CRE_170"]
+                                            }
+                                        },
+                                        {
+                                            "name": "IF065",
+                                            "attributes": {
+                                                "title":"Taller de Creatividad Musical",
+                                                "creditos":2,
+                                                "categoria":"EC",
+                                                "requisitos":["CRE_170"]
+                                            }
+                                        },
+                                        {
+                                            "name": "IF066",
+                                            "attributes": {
+                                                "title":"Teatro",
+                                                "creditos":2,
+                                                "categoria":"EC",
+                                                "requisitos":["CRE_170"]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "IF710",
+                                    "attributes": {
+                                        "title":"Seminario de Investigacion",
+                                        "creditos":3,
+                                        "categoria":"OE",
+                                        "requisitos":["CRE_150"]
+                                    },
+                                    "children":[
+                                        {
+                                            "name": "IF711",
+                                            "attributes": {
+                                                "title":"Seminario de Investigacion II",
+                                                "creditos":4,
+                                                "categoria":"OE",
+                                                "requisitos":["IF710"]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "IF062",
+                            "attributes": {
+                                "title":"Danza Moderna",
+                                "creditos":2,
+                                "categoria":"EC",
+                                "requisitos":["CRE_100"]
+                            }
+                        },
+                        {
+                            "name": "IF063",
+                            "attributes": {
+                                "title":"Quechua",
+                                "creditos":2,
+                                "categoria":"EC",
+                                "requisitos":["CRE_100"]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "IF060",
+                    "attributes": {
+                        "title":"Musica",
+                        "creditos":2,
+                        "categoria":"EC",
+                        "requisitos":["CRE_60"]
+                    }
+                },
+                {
+                    "name": "IF061",
+                    "attributes": {
+                        "title":"Coro",
+                        "creditos":2,
+                        "categoria":"EC",
+                        "requisitos":["CRE_60"]
                     }
                 }
             ]
-        },
-        {
-            "name": "IF060",
-            "attributes": {
-                "title":"Musica",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_60"]
-            }
-        },
-        {
-            "name": "IF061",
-            "attributes": {
-                "title":"Coro",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_60"]
-            }
-        },
-        {
-            "name": "IF062",
-            "attributes": {
-                "title":"Danza Moderna",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_100"]
-            }
-        },
-        {
-            "name": "IF063",
-            "attributes": {
-                "title":"Quechua",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_100"]
-            }
-        },
-        {
-            "name": "IF064",
-            "attributes": {
-                "title":"Taller de Debate",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_170"]
-            }
-        },
-        {
-            "name": "IF065",
-            "attributes": {
-                "title":"Taller de Creatividad Musical",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_170"]
-            }
-        },
-        {
-            "name": "IF066",
-            "attributes": {
-                "title":"Teatro",
-                "creditos":2,
-                "categoria":"EC",
-                "requisitos":["CRE_170"]
-            }
-        },
-        {
-            "name": "IF020",
-            "attributes": {
-                "title":"Practicas Pre-Profesionales",
-                "creditos":9,
-                "categoria":"PP",
-                "requisitos":["CRE_200"]
-            }
         }
     ]
 }
