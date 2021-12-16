@@ -1,0 +1,21 @@
+.node_undefined{
+    fill: #000;
+}
+.node_EG{
+    fill: green;
+}
+.node_OE{
+    fill: yellow;
+}
+.node_EE{
+    fill: orange;
+}
+.node_EC{
+    fill: grey;
+}
+.node_PP{
+    fill: lightseagreen;
+}
+.clicked{
+    fill: blue;
+}
