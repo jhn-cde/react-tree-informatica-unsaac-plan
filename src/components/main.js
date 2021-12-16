@@ -10,14 +10,15 @@ function Main({initialData}) {
     );
 }
 const styles = {
-    //backgroundColor: "#060a12",
-    backgroundColor: "#ffffff",
+    backgroundColor: "#060a12",
+    //backgroundColor: "#ffffff",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "start",
     fontSize: "calc(4px + 2vmin)",
-    color: "#060a12",
+    //color: "#060a12",
+    color: "#fff",
     width: "auto",
     maxHeight: "85vh",
     marginTop: "10vh"

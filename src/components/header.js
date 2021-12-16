@@ -1,14 +1,16 @@
 function Header() {
     return (
         <header className="App-header" style={styles}>
-          <p>
+          <h1 style={h1st}>
             Ingeniería Informática y de Sistemas -
             Plan de Estudio
-          </p>
+          </h1>
         </header>
     );
   }
-
+const h1st = {
+  fontSize: "1.1em"
+}
 const styles = {
     backgroundColor: "#282c34",
     display: "flex",
