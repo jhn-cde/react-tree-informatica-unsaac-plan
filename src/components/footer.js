@@ -33,7 +33,7 @@ function Footer() {
     );
 }
 const styles = {
-    backgroundColor: "#282c34",
+    backgroundColor: "#060C2D",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

@@ -27,7 +27,8 @@
     stroke: blue;
 }
 .father{
-    stroke: white;
+    stroke: #101010;
+    stroke-width: 3px;
 }
 .leaf:hover{
     cursor: context-menu;
