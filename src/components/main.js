@@ -20,8 +20,7 @@ const styles = {
     fontSize: "calc(4px + 2vmin)",
     color: "#fff",
     width: "auto",
-    maxHeight: "85vh",
-    marginTop: "10vh"
+    height: "85vh",
 }
   
 export default Main;
