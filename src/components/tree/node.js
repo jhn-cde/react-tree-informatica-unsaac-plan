@@ -3,21 +3,32 @@ import React from "react"
 import './node.css'
 
 function Nodo ({ nodeDatum, toggleNode}) {
-  const aria_label = (atributos) =>{
+  // circle radio
+  const radio = ".8em";
+
+  // node attributes
+  const attributes = (att) => {
     var s = "";
-    s += atributos.title? atributos.title:"";
-    s += atributos.creditos? "\nCreditos: "+atributos.creditos:"";
-    s += atributos.requisitos? "\nRequisito: "+(atributos.requisitos!=""?atributos.requisitos:"_"):"";
+    s += att.title? att.title:"";
+    s += att.creditos? "\nCreditos: "+ att.creditos:"";
+    s += att.requisitos? "\nRequisito: "+(att.requisitos!=""?att.requisitos:"_"):"";
     return s;
   }
+  // circle classname
+  const classCircle = (nodo) => {
+    var s = "circle node_" + nodo.attributes.categoria;
+    s += (nodo.children?" father":" leaf");
+    return s;
+  }
+
   return (
     <g>
-      <circle className={"node_"+nodeDatum.attributes.categoria + (nodeDatum.children?" father":" leaf")} cx="0" cy="10" r="10" aria-labelledby="mobileSupport" onClick={toggleNode} />
-      <text fill="#fff" strokeWidth="0" x="10" y="0" onClick={toggleNode} >
+      <circle className={classCircle(nodeDatum)} cx="0" cy={radio} r={radio} aria-labelledby="mobileSupport" onClick={toggleNode} />
+      <text fill="#fff" strokeWidth="0" x={radio} y="0" onClick={toggleNode} >
         {nodeDatum.name}
       </text>
       <title id="mobileSupport">
-        {aria_label(nodeDatum.attributes)}
+        {attributes(nodeDatum.attributes)}
       </title>
     </g>
   )
