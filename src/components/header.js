@@ -20,8 +20,6 @@ const styles = {
     fontSize: "calc(4px + 2vmin)",
     color: "white",
     width: "100%",
-    position: "fixed",
-    top: "0",
     height: "10vh",
 }
   
