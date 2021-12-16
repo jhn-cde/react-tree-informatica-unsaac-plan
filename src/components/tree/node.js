@@ -4,7 +4,7 @@ import './node.css'
 
 function Nodo ({ nodeDatum, toggleNode}) {
   // circle radio
-  const radio = ".8em";
+  const radio = 0.8;
 
   // node attributes
   const attributes = (att) => {
@@ -20,12 +20,30 @@ function Nodo ({ nodeDatum, toggleNode}) {
     s += (nodo.children?" father":" leaf");
     return s;
   }
+  // 
+  const nodoTitle = () => {
+    var s = "";
+    if(nodeDatum.attributes.title){
+      var title = nodeDatum.attributes.title;
+      if(title === "Ingeniería Informática y de Sistemas"){
+        s = title
+      }
+      else{
+        s += title.substring(0,11);
+        s += title.substring(11)?"...":""
+      }
+    }
+    return s
+  }
 
   return (
     <g>
-      <circle className={classCircle(nodeDatum)} cx="0" cy={radio} r={radio} aria-labelledby="mobileSupport" onClick={toggleNode} />
-      <text fill="black" strokeWidth="" x={radio} y="0" onClick={toggleNode} >
+      <circle className={classCircle(nodeDatum)} cx="0" cy={radio.toString()+"em"} r={radio.toString()+"em"} aria-labelledby="mobileSupport" onClick={toggleNode} />
+      <text fill="black" x={(radio+0.3).toString()+"em"} y="0" onClick={toggleNode} >
         {nodeDatum.name}
+      </text>
+      <text fill="black" x={(radio+0.3).toString()+"em"} y={(radio+0.2).toString()+"em"} onClick={toggleNode} >
+        {nodoTitle(nodeDatum)}
       </text>
       <title id="mobileSupport">
         {attributes(nodeDatum.attributes)}
