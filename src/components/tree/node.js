@@ -24,7 +24,7 @@ function Nodo ({ nodeDatum, toggleNode}) {
   return (
     <g>
       <circle className={classCircle(nodeDatum)} cx="0" cy={radio} r={radio} aria-labelledby="mobileSupport" onClick={toggleNode} />
-      <text fill="#fff" strokeWidth="0" x={radio} y="0" onClick={toggleNode} >
+      <text fill="black" strokeWidth="" x={radio} y="0" onClick={toggleNode} >
         {nodeDatum.name}
       </text>
       <title id="mobileSupport">

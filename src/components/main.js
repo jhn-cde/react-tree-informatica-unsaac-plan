@@ -12,14 +12,12 @@ function Main({initialData}) {
     );
 }
 const styles = {
-    backgroundColor: "#060a12",
-    //backgroundColor: "#ffffff",
+    backgroundColor: "#f5f5f5",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "start",
     fontSize: "calc(4px + 2vmin)",
-    //color: "#060a12",
     color: "#fff",
     width: "auto",
     maxHeight: "85vh",

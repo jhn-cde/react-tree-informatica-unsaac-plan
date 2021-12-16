@@ -12,7 +12,7 @@ const h1st = {
   fontSize: "1.1em"
 }
 const styles = {
-    backgroundColor: "#282c34",
+    backgroundColor: "#060C2D",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
