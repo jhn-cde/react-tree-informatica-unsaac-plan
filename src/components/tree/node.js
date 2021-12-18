@@ -2,7 +2,7 @@ import React from "react"
 
 import './node.css'
 
-function Nodo ({ nodeDatum, toggleNode}) {
+function Nodo ({ nodeDatum, toggleNode, onclick}) {
   // circle radio
   const radio = 0.8;
 
@@ -39,11 +39,11 @@ function Nodo ({ nodeDatum, toggleNode}) {
   return (
     <g>
       <circle className={classCircle(nodeDatum)} cx="0" cy={radio.toString()+"em"} r={radio.toString()+"em"} aria-labelledby="mobileSupport" onClick={toggleNode} />
-      <text fill="black" x={(radio+0.3).toString()+"em"} y="0" onClick={toggleNode} >
+      <text fill="black" fontSize={"smaller"} stroke="black" strokeWidth={"1"} x={(radio+0.5).toString()+"em"} y="0" onClick={onclick} >
         {nodeDatum.name}
       </text>
-      <text fill="black" x={(radio+0.3).toString()+"em"} y={(radio+0.2).toString()+"em"} onClick={toggleNode} >
-        {nodoTitle(nodeDatum)}
+      <text fill="black" fontSize={"smaller"} stroke="#777" strokeWidth={"1"} x={(radio+0.5).toString()+"em"} y={(radio+0.2).toString()+"em"} onClick={toggleNode} >
+        <tspan>{nodoTitle(nodeDatum)}</tspan>
       </text>
       <title id="mobileSupport">
         {attributes(nodeDatum.attributes)}
