@@ -1,0 +1,41 @@
+.nodo > circle{
+    stroke: rgba(0,0,0,0);
+    stroke-width: 0;
+}
+.nodo > g > text{
+    font: normal 1em sans-serif;
+    fill: #000;
+}
+.nodo > g > .rd3t-label__attributes{
+    display: none;
+}
+.nodo > g{
+    background-color: black;
+    fill: black;
+    stroke: black;
+}
+.nodoPadre > circle, .nodoRama > circle{
+    stroke: rgba(255,0,0,.3);
+    stroke-width: 3;
+}
+.nodo > circle:hover{
+    stroke: red;
+}
+.EG > circle{
+    fill: darkviolet;
+}
+.OE > circle{
+    fill: green;
+}
+.EE > circle{
+    fill: maroon;
+}
+.EC > circle{
+    fill: olive;
+}
+.PP > circle{
+    fill: lightseagreen;
+}
+.blue > circle{
+    fill: blue;
+}
