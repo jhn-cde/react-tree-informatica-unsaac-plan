@@ -3,7 +3,8 @@ import { Component } from 'react'
 
 import Aside from './aside'
 import Section from './section'
-import Card from './card/card'
+import Label from './card/Label'
+import Card from './card/Card'
 
 const styles = {
   main: {
@@ -24,7 +25,9 @@ class Main extends Component{
       const { initialData } = this.props
     return (
       <div className='App-main' style={styles.main}>
-        <Card estilos={{position:"fixed", top:"11vh", left:"1vh"}}/>
+        <Card position={{position:"fixed", top:"11vh", left:"1vh"}}>
+          <Label />
+        </Card>
         <Section initialData={initialData}/>
       </div>
     )

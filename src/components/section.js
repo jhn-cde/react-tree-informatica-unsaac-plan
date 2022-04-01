@@ -22,18 +22,5 @@ class Section extends Component{
     )
   }
 }
-/*
-import React, {useState} from 'react';
-
-function Section({initialData}) {
-    const [data, setData] = useState(initialData);
-
-    return (
-        <section className='App-section' style={styles}>
-            <Arbol data = {data}/>
-        </section>
-    );
-}
-*/
 export default Section;
   
