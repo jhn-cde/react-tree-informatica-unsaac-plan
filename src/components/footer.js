@@ -17,7 +17,7 @@ const styles = {
 class Footer extends Component{
   render() {
     return(
-      <footer className='App-footer' style={styles}>
+      <footer className='App-footer' style={styles.footer}>
         <p>
           <a
             className="App-link"
