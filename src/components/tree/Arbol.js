@@ -1,10 +1,10 @@
-import React from "react";
+import { Component } from "react";
 import TreeChart from 'react-d3-tree'
 
 import './Arbol.css'
 
-export default class Arbol extends React.Component{
-  state = { };
+class Arbol extends Component{
+  state = {};
   Offset = 80;
 
   componentDidMount() {
@@ -72,20 +72,22 @@ export default class Arbol extends React.Component{
   }
 
   render(){
-      return(
-        <div id="treeWrapper" style={{width:'100%', height:'100%'}} ref={(tc) => (this.treeContainer = tc)}>
-          <TreeChart
-            data={this.props.data}
-            translate={this.state.translate}
-            onNodeClick={this.onNodeClick}
-            onNodeMouseOver={this.onNodeMouseOver}
-            leafNodeClassName={"nodo nodoHoja"}
-            rootNodeClassName={"nodo nodoPadre"}
-            branchNodeClassName={"nodo nodoRama"}
-            initialDepth={0}
-            orientation="vertical"
-          />
-        </div>
-      )
+    return(
+      <div id="treeWrapper" style={{width:'100%', height:'100%'}} ref={(tc) => (this.treeContainer = tc)}>
+        <TreeChart
+          data={this.props.data}
+          translate={this.state.translate}
+          onNodeClick={this.onNodeClick}
+          onNodeMouseOver={this.onNodeMouseOver}
+          leafNodeClassName={"nodo nodoHoja"}
+          rootNodeClassName={"nodo nodoPadre"}
+          branchNodeClassName={"nodo nodoRama"}
+          initialDepth={0}
+          orientation="vertical"
+        />
+      </div>
+    )
   }
 }
+
+export default Arbol
